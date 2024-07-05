@@ -5,7 +5,7 @@ import { ArchivosService } from '../archivos.service';
 import { Observable } from 'rxjs';
 import { Paginacion } from '../../compartido/modelos/Paginacion';
 import { Router } from '@angular/router';
-import { FacturaRPA } from '../../compartido/modelos/FacturaRPA';
+//import { FacturaRPA } from '../../compartido/modelos/FacturaRPA';
 
 @Component({
   selector: 'app-facturas',
@@ -16,7 +16,7 @@ export class FacturasComponent {
   private readonly paginaInicial = 1;
   private readonly limiteInicial = 5;
   paginadorReportes: Paginador<FiltrosLogs>;
-  facturaRPA: FacturaRPA[] = [];
+  facturaRPA: any[] = [];
 
   termino: string = '';
 
