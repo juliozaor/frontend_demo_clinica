@@ -4,8 +4,8 @@ import { Paginador } from '../../compartido/modelos/Paginador';
 import { ArchivosService } from '../archivos.service';
 import { Observable } from 'rxjs';
 import { Paginacion } from '../../compartido/modelos/Paginacion';
-import { FacturaRPA } from '../../compartido/modelos/facturaRPA';
 import { Router } from '@angular/router';
+import { FacturaRPA } from '../../compartido/modelos/FacturaRPA';
 
 @Component({
   selector: 'app-facturas',
