@@ -72,11 +72,11 @@
               "sourceMap": true
             },
             "qa": {
-              /* "optimization": false,
+              "optimization": false,
               "extractLicenses": false,
-              "sourceMap": true */
+              "sourceMap": true,
               "outputPath": "../../www/html/clinica",
-                "baseHref": "/clinica/"
+              "baseHref": "/clinica/"
             }
           },
           "defaultConfiguration": "production"
