@@ -32,6 +32,12 @@ const routes: Routes = [
           import('./archivos/archivos.module').then(
             (m) => m.ArchivosModule
             ),
+      },{
+        path: 'analisis',
+        loadChildren: () =>
+          import('./analisis/analisis.module').then(
+            (m) => m.AnalisisModule
+            ),
       },
       { path: 'home', component: HomeComponent },
       { path: '**', redirectTo: 'home', pathMatch: 'full' },
